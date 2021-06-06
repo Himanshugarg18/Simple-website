@@ -1,0 +1,33 @@
+@media screen and (max-width: 900px){  
+   
+    nav{
+        flex-direction:column;
+    }
+    .logo{
+        justify-content: center;
+        margin: 8px 0;
+    }
+
+    nav ul{
+        justify-content: center;
+    }
+    .search{
+        justify-content: center;
+        margin: 7px 16px;
+        font-size: 70px;
+    }
+
+    nav ul li{
+        padding: 12px;
+    }
+    .img{
+        height: 200px;
+        width: 700px;
+        display: flex;
+        justify-content: center;
+        background-color: aliceblue;
+    }
+    .card-item img{
+        width: 130px;
+    }
+}
